@@ -67,6 +67,21 @@
     margin: 0 auto;
   }
 
+  
+  
+	.wrapper {
+		display: flex;
+	}
+	.wrapper > div {
+		font-size: 4vh;
+		color: silver;
+		background: white;
+		margin: .1em;
+		padding: .3em;
+		border-radius: 3px;
+		flex: 1;
+	}
+  
 </style>
 </head>
 <body>
@@ -125,8 +140,20 @@
     <span class="text">home</span>
   </a>
 
+<div class="wrapper">
+  <div>1
+  </div>
+</div>
+<div class="wrapper">
+  <div>1</div>
+  <div>2</div>
+</div>
+<div class="wrapper">
+  <div>1</div>
+  <div>2</div>
+</div>
 
-  <main id="home">
+  <!-- <main id="home"> 
     <div class="grid">
       <a href="#about" class="item about one"><span></span></a>
       <a href="#work" class="item work two"><span></span></a>
@@ -135,7 +162,7 @@
       <a href="#contact" class="item contact five"><span></span></a>
 
     </div>
-  </main>
+  </main>-->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js"></script>
   <script>
